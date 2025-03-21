@@ -121,3 +121,110 @@ section.topoSite .flex{
         top: 30px;
     }
 }
+
+/* ESTILO DA TABELA */
+.tabela-atividades {
+    padding: 40px 4%;
+    background-color: rgb(8, 8, 12); /* Fundo escuro da seção */
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: transparent; /* Fundo transparente */
+    color: #fff; /* Cor do texto */
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Bordas suaves */
+}
+
+.custom-table th {
+    background-color: rgba(44, 130, 151, 0.1); /* Fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    font-weight: 600;
+}
+
+.custom-table tbody tr:hover {
+    background-color: rgba(44, 130, 151, 0.05); /* Efeito hover nas linhas */
+}
+
+/* Estilo dos badges */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bg-success {
+    background-color: #28a745 !important; /* Verde para concluído */
+}
+
+.bg-warning {
+    background-color: #ffc107 !important; /* Amarelo para pendente */
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* ESTILO DO RODAPÉ */
+.footer {
+    padding: 40px 4%;
+    background-color: rgba(8, 8, 12, 0.9); /* Fundo escuro com leve transparência */
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Linha superior sutil */
+}
+
+.footer h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Estilo do formulário */
+.form-contato {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-contato .form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo dos campos */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda dos campos */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form-contato .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* Cor do placeholder */
+}
+
+.form-contato .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo ao focar */
+    border-color: rgba(44, 130, 151, 0.8); /* Borda ao focar */
+    box-shadow: 0 0 8px rgba(44, 130, 151, 0.5); /* Sombra ao focar */
+    outline: none;
+}
+
+.form-contato .btn-primary {
+    background-color: rgb(44, 130, 151); /* Cor do botão */
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.form-contato .btn-primary:hover {
+    background-color: rgba(44, 130, 151, 0.8); /* Cor do botão ao passar o mouse */
+    box-shadow: 0px 0px 8px #4998e2;
+    transform: scale(1.05);
+}
